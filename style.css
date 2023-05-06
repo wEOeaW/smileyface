@@ -1,0 +1,36 @@
+body
+{
+background-color: rgb(218, 255, 245);
+}
+h1
+{
+    color:rgb(132, 199, 213);
+    background-color: rgb(220, 243, 255);
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count:infinte;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px rgb(100, 142, 174);}
+    to {box-shadow: 1px 1px 38px white;}
+}
+
+p
+{
+    padding-top:10px;
+    font-size:25px;
+    color:rgb(149, 223, 238);
+}
